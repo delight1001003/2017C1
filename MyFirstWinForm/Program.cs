@@ -17,6 +17,10 @@ namespace MyFirstWinForm
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new Form1());
+            //想想看也建議可以操作看看，跟這樣寫有什麼差別呢 ?^^ a
+            //var f = new Form1();
+            //f.Show();
+            //Application.Run();
         }
     }
 }
